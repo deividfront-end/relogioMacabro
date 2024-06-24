@@ -1,0 +1,103 @@
+*{
+        
+        margin:0;
+        padding: 0;
+        font-family: 'Opens Sans', sans-serif;
+} 
+   
+body {
+
+
+        height: 100vh;
+        background-color:#B22222; 
+        background-image: url("../img/it.jpg");
+        background-size:cover;
+       
+        background-position: 60%;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+     }
+/*titulo Relogio Digital*/
+.header {
+        background-color: #000000;
+        text-align: center;
+        border-radius: 7px;
+        color: white;
+        font-size: 18px;
+        box-shadow: #B22222;
+        
+        opacity:80%;
+      }
+
+.relogio{
+        display: flex;
+        gap: 10px;
+       
+       
+
+        }
+
+.relogio div{
+        height: 170px;
+        width: 130px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color:#fff;
+        background: #FF0000;
+        box-shadow: #B22222;
+        border-radius: 7px;
+        letter-spacing: 3px;
+       
+        }
+
+.relogio span{
+        font-weight: bolder;
+        font-size: 40px;
+       }
+
+.relogio span.tempo{
+        font-size: 15px;
+       }
+
+.rodape{
+        margin-top: 4px;
+        color: 	#ffffff;
+        font-size: 12px;
+        align-content: center;
+        text-align: center;
+        }
+
+       
+
+
+button{
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+        border-radius: 5px;
+        box-shadow: 0 0 2.5px 0 #39a2db59;
+        width:70px;   
+
+}
+.darkIt {
+        background-image: url("../img/it2.jpg");
+        color: rgb(255, 255, 255);
+
+       
+        }
+        .whiteIt{
+                background-image: url("../img/it.jpg");
+                color: rgb(255, 255, 255);
+                .rodape{
+                        color:#000000;
+                }
+               
+                }
+               
+        
+       
