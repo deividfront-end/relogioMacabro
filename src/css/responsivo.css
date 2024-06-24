@@ -14,10 +14,11 @@
     }
 
     .whiteIt{
+    
     background-image: url("../img/it2resp.jpg");
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     background-size:cover;
-    background-size: 512px 514px;
+    background-size: 502px 414px;
     
     
     }
