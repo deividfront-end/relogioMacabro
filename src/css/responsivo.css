@@ -1,3 +1,6 @@
+
+
+
 @media(max-width: 620px){
     .container{
         padding: 30px 0;
@@ -6,7 +9,7 @@
         background-image: url("../img/it2.jpg");
         color: rgb(255, 255, 255);
         background-color: rgb(6, 6, 6);
-        background-size:cover;
+        background-size:contain;
         background-size: 502px 414px;
         
 
@@ -40,7 +43,7 @@ body{
         background-color: white;
         background-image: url("../img/it2.jpg");
         background-size:cover;
-        background-size: 512px 514px;
+        background-size: 502px 414px;
         
       
       

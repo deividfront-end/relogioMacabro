@@ -65,7 +65,7 @@ body {
 
 .rodape{
         margin-top: 4px;
-        color: 	#ffffff;
+        color: 	#000000;
         font-size: 12px;
         align-content: center;
         text-align: center;
@@ -84,10 +84,12 @@ button{
         width:70px;   
 
 }
-.darkIt {
+.darkIt{
         background-image: url("../img/it2.jpg");
         color: rgb(255, 255, 255);
-
+        .rodape{
+                color:#ffffff;
+        }
        
         }
         .whiteIt{
